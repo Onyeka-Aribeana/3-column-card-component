@@ -1,0 +1,62 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+article {
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: 400px;
+}
+
+.card {
+    padding: 35px;
+}
+
+#sedan {
+    background-color: var(--bright-orange)
+}
+#suv {
+    background-color: var(--dark-cyan);
+}
+#luxury {
+    background-color: var(--very-dark-cyan)
+}
+
+.card h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--very-light-gray);
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparent-white);
+    font-size: 15px;
+    line-height: 1.5;
+} 
