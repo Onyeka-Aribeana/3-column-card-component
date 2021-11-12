@@ -97,7 +97,8 @@ article {
   }
   .grid-container{
     margin: 100px 0;
-    grid-template-columns: 290px
+    grid-template-columns: 290px;
+    grid-template-rows: repeat(3, 470px)
   }
   #sedan {
     border-top-right-radius: 10px;
