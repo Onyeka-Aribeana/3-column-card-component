@@ -63,6 +63,10 @@ article {
   color: var(--very-dark-cyan);
 }
 
+#luxury a:active, #sedan a:active, #suv a:active {
+  background-color: inherit; 
+}
+
 .btn {
   margin: 55px 0 0;
 }
@@ -89,6 +93,11 @@ article {
   background-color: var(--very-light-gray);
   padding: 10px 20px;
   border-radius: 9999em;
+}
+
+.card a:active {
+  color: var(--very-light-gray) !important;
+  border: 1.5px var(--very-light-gray) solid;
 }
 
 @media screen and (max-width: 500px){
