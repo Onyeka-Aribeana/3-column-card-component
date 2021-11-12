@@ -29,7 +29,7 @@ article {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 290px);
-  grid-template-rows: 420px;
+  grid-template-rows: 470px;
   border-radius: 10px;
 }
 
@@ -70,7 +70,7 @@ article {
 .card h1 {
   font-family: "Big Shoulders Display", cursive;
   color: var(--very-light-gray);
-  margin: 10px 0;
+  margin: 20px 0;
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 700;
@@ -81,7 +81,7 @@ article {
   color: var(--transparent-white);
   font-size: 15px;
   line-height: 1.7;
-  padding: 10px 0 20px;
+  padding: 10px 0 30px;
 }
 
 .card a {
