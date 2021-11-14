@@ -31,6 +31,7 @@ article {
   grid-template-columns: repeat(3, 290px);
   grid-template-rows: 470px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .card {
@@ -39,16 +40,12 @@ article {
 
 #sedan {
   background-color: var(--bright-orange);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 #suv {
   background-color: var(--dark-cyan);
 }
 #luxury {
   background-color: var(--very-dark-cyan);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 #sedan a {
@@ -108,14 +105,5 @@ article {
     margin: 100px 0;
     grid-template-columns: 290px;
     grid-template-rows: repeat(3, 470px)
-  }
-  #sedan {
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0;
-  }
-  #luxury {
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 10px;
-  }
-  
+  }  
 }
